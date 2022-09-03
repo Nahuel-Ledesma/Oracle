@@ -1,0 +1,357 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos utilizados en todas las páginas */
+
+header{
+	background-color: #BBB;
+	padding: 20px 0;
+}
+
+.caja_navegacion{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 50px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
+	font-size: 24px;
+	transition: 0.2s;
+}
+
+footer{
+	background: url("../imagenes/productos/bg.jpg");
+	padding: 40px;
+	text-align: center;
+}
+
+.copyright{
+	color: #FFF;
+	font-size: 12px;
+}
+
+.nombre{
+	padding-top: 20px;
+	color: #FFF;
+	font-size: 12px;
+}
+
+
+
+/* Estilos utilizados en la página de productos.html */
+.productos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.productos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+
+.item_productos{
+	border: 4px solid #000;
+	border-radius: 15px;
+	transition: 0.2s;
+}
+
+.item_productos:hover{
+	transform: scale(1.05);
+	transition: 0.2s;
+	border-color: #C78C19;
+	cursor: pointer;
+}
+
+.item_productos:active{
+	border-color: #088C19;
+}
+
+.item_productos h2{
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.descripcion{
+	font-size: 18px;
+}
+
+.precio{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+
+/* Estilos utilizados en la página de contacto.html */
+.contenedor_contacto{
+	margin: 0 auto;
+	width: 940px;
+}
+form{
+	margin: 40px 0;
+}
+
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padron{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.boton_enviar{
+	width: 40%;
+	padding: 15px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	background: #FAAC4F;
+	border: none;
+	border-radius: 10px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.boton_enviar:hover{
+	transform: scale(1.05);
+	background: #FF8E07;
+}
+
+
+table{
+	margin: 40px 40px;
+}
+
+thead{
+	background: #555;
+	color: #FFF;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid #000;
+	padding: 8px 15px;
+}
+
+
+
+/* Estilos utilizados en la página de index.html */
+
+
+/* Estilos para el main banner */
+.banner{
+	width: 100%;
+}
+
+/* Estilos para el main principal y mision */
+.principal{
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.titulo_principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+
+/* Ejemplos de pseudo elementos
+
+.titulo_principal:first-letter{
+	font-weight: bold;
+}
+
+.titulo_principal:before{
+	content: "[";
+}
+
+.titulo_principal:after{
+	content: "]";
+}
+
+p:first-line{
+	font-style: italic;
+}
+
+*/
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.mision{
+	font-style: italic;
+}
+
+.strong_mision{
+	font-weight: bold;
+	font-style: italic;
+}
+
+.img_utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+
+/* Estilo para el main mapa */
+.mapa{
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888);
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapa_contenido{
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+/* Estilos para el main diferenciales */
+.diferenciales{
+	padding: 3em 0;
+	background: #888;
+}
+
+.img_diferencial{
+	width: 60%;	
+	transition: 0.3s;
+	box-shadow: 10px 7px 20px #000;
+}
+
+.img_diferencial:hover{
+	opacity: 0.4;
+}
+
+.contenido_diferenciales{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista_diferenciales{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.items:first-child{
+	font-weight: bold;
+}
+
+.items{
+	line-height: 1.5;
+}
+
+.items:before{
+	content: "✭";
+}
+
+
+/* Estilos para el main video */
+.video{
+	padding: 3em 0;
+	background: linear-gradient(#888, #222);
+}
+
+.video_contenido{
+	width: 640px;
+	margin: 0 380px;
+}
+
+
+
+/* Medias queries */
+@media screen and (max-width: 480px){
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.caja_navegacion, .principal, .mapa_contenido, .contenido_diferenciales, .video_contenido, .productos, .contenedor_contacto{
+		width: auto;
+	}
+
+	.video_contenido{
+		margin: 0;
+	}
+
+	.lista_diferenciales, .img_diferencial, .img_productos{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.productos li{
+		width: 100%;
+		margin: 15px 1.5%;
+	}
+
+	form{
+		text-align: center;
+	}
+
+	.input-padron{
+		margin: 0 0 10px 65px;
+		text-align: center;
+	}
+
+	table{
+		margin: 40px 65px;
+	}
+
+	.seleccion{
+		margin-top: 10px;
+		text-align: center;
+	}
+}
